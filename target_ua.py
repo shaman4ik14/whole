@@ -71,5 +71,3 @@ def result_area():
     dict_of_words = get_words('a', letters)
     res = check_user_words(user_input, language_part, letters, dict_of_words)
     return res
-
-print(result_area())
